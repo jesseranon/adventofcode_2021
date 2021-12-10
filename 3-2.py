@@ -51,5 +51,4 @@ for binary in list(decimals.keys()):
     for x in range(len(binary)-1,-1,-1):
         steps += 1
         decimals[binary] += int(binary[x])*(2**steps)
-print(decimals[ratings['o2']]*decimals[ratings[
-    'co2']])
+print(decimals[ratings['o2']]*decimals[ratings['co2']])
